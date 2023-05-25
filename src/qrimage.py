@@ -90,9 +90,12 @@ def qrimage_main(argv):
     argumentParser.add_argument("-o", "--output", required=False, help="Image output filename")
     argumentParser.add_argument("-i", "--input", required=True, help="Data for QR-Code generation")
     argumentParser.add_argument("-s", "--setup", required=False, help="JSON configuration file")
+    argumentParser.add_argument("-v", "--verbose", action="store_true", help="Show whats going on")
 
     args = argumentParser.parse_args()
-    print(filename, "args=%s" % args)
+
+    if(args.verbose):
+        print(filename, "args=%s" % args)
 
     if(args.folder):
         os.makedirs(args.folder, exist_ok=True)
