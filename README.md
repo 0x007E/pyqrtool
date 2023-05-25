@@ -23,10 +23,10 @@ python ./pyqrtool.py -h
 
 ``` bash
 # Without setup
-python.exe ./qrimage.py -f ./temp -i https://github.com/0x007e -o Test.png
+python ./qrimage.py -f ./temp -i https://github.com/0x007e -o Test.png
 
 # With setup
-python.exe ./qrimage.py -f ./temp -i https://github.com/0x007e -s ./qrimage.setup.json -o Test.png
+python ./qrimage.py -f ./temp -i https://github.com/0x007e -s ./qrimage.setup.json -o Test.png
 
 # The QR-Code png image should be created in temp/Test.png
 ```
