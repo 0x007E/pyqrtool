@@ -17,7 +17,7 @@ python ./pyqrtool.py -h
 | -i    | --input   | QR-Payload         |
 | -o    | --output  | Output *.png file  |
 | -s    | --setup   | [Configuration](./src/qrimage.setup.json) |
-| -k    | --folder  | Output folder      |
+| -f    | --folder  | Output folder      |
 
 ## CLI-Usage
 
